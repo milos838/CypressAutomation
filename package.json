@@ -1,0 +1,24 @@
+{
+  "name": "cypressautomation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx cypress run",
+    "recordDashboardGtest": "npx cypress run --record --key 64caea2c-da72-4709-9864-3d80f5170474 --spec \"cypress/e2e/TestProject/UI/*.js\"",
+    "smokeGtest": "npx cypress run --spec \"cypress/e2e/TestProject/UI/LoginValidation.cy.js\" --headed",
+    "recordDashboardFrameTest": "npx cypress run --record --key 64caea2c-da72-4709-9864-3d80f5170474 --spec \"C:/Users/Milos/CypressAutomation/cypress/e2e/Integration/Examples/Frameworks/*.js\"",
+    "ChromeSmokeFtest": "npx cypress run --spec \"C:/Users/Milos/CypressAutomation/cypress/e2e/Integration/Examples/Frameworks/*.js\" --headed --browser chrome"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@cypress/browserify-preprocessor": "^3.0.2",
+    "cypress": "^13.17.0",
+    "cypress-iframe": "^1.0.1",
+    "cypress-mochawesome-reporter": "^3.8.2"
+  },
+  "dependencies": {
+    "@badeball/cypress-cucumber-preprocessor": "^20.1.2"
+  }
+}

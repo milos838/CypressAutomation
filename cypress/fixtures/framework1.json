@@ -1,0 +1,8 @@
+{
+    "name": "Anita Takov",
+    "email": "milostest@123.abc",
+    "password": "testME",
+    "gender": "Female",
+
+    "productName": ["Blackberry", "Nokia"]
+}
